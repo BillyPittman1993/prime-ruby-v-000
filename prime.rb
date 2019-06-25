@@ -4,7 +4,7 @@ def prime?(n)
   array = (i..n-1).to_a 
   array.none? do |num_to_test| 
   n % num_to_test == 0
-    end
+  end
   else
   return false 
   end
